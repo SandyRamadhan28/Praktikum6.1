@@ -1,15 +1,4 @@
-# Praktikum6.1
-# **PROGRAM INPUT NILAI MAHASISWA MENGGUNAKAN FUNGSI**
-
-
-## ***Flowchart***
-
-![5](https://user-images.githubusercontent.com/115614173/205666383-6c031840-e066-41f5-b760-511b4cc97164.jpeg)
-
-
-
-```sh
-DataMahasiswa = {}
+dataMahasiswa = {}
 
 print("=" * 65)
 print("|\tPROGRAM INPUT NILAI MAHASISWA MENGGUNAKAN FUNGSI\t|")
@@ -86,33 +75,3 @@ while True:
         exit()
     else:
         print("PILIHAN MENU TIDAK ADA!")
-```
-
-# ****DESKRIPSI****
-
-1. Deklarasi dictionary dengan nama _dataMahasiswa_ untuk menampung semua data/element.
-2. gunakan fungsi _def tambah()_ di isi dengan inputan nama, nim, tugas, uts, uas dan perhitungan nilai akhir untuk dan di masukan ke dictonary _dataMahasiswa_.
-3. gunakan fungsi _def tampilkan()_ di isi dengan cetak isi dari dictonary.
-4. gunakan fungsi _def hapus(nama)_ di isi dengan syntax delet untuk menghapus element _nama_ pada dictonary _dataMahasiswa_.
-5. gunakan fungsi _def ubah(nama)_ di isi dengan inputan _nama_ dan mengubah isi element pada _nama_ tersebut.
-6. gunakan _while True_ untuk menlooping/mengulang statment.
-7. gunakan statment _if, elif, else,_ di dalam _while True_ dan panggil fungsi dari masing masing fungsi, contoh:
-```sh
-tambah()
-tampilkan()
-hapus(nama)
-ubah(nama)
-```
-
-## ***TAMPILAN PROGRAM***
-![1](https://user-images.githubusercontent.com/115614173/205666620-b6d1f454-b60c-4a84-b764-e53e557838ed.png)
-
-![2](https://user-images.githubusercontent.com/115614173/205666731-e8027392-8f3c-4385-9943-6c0982c0759b.png)
-
-![3](https://user-images.githubusercontent.com/115614173/205666880-d0a68238-7f93-4874-8db8-f3f20100ab53.png)
-
-![4](https://user-images.githubusercontent.com/115614173/205666953-8917ef99-1372-4fe6-96d2-476e4fe579e4.png)
-
-
-
-8. ## SELESAI.
